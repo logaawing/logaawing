@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.div1{
+	position: relative;
+	margin-top:100%;
+	width:100%;
+	top:38%;
+	float:left;
+}
+
+.l{
+	width:40%;
+	height:auto;
+	float:left;
+}
+.m{
+	width:20%;
+	height:auto;
+	float:left;
+}
+.r{
+	width:40%;
+	height:auto;
+	float:left;
+}
+
+.div2{
+	position: relative;
+	margin-top:1%;
+	width:100%;
+	top:40%;
+	float:left;
+}
+
+.text{
+	text-align:center;//居中
+    font-size:24px;//字体大小为12像素
+    
+    margin:0px;
+	padding:0px;
+}
+
+
+

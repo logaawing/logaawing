@@ -1,51 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>首页</title>
-    <style type="text/css">
-        #apDiv1
-        {
-            position: absolute;
-            text-align: center;
-            width: 610px;
-            height: auto;
-            top: 608px;
-            left: 70px;
-            right:70px;
-        }
-        #apDiv2
-        {
-            position: absolute;
-            text-align: center;
-            width: 610px;
-            height: 88px;
-            top: 688px;
-            left: 70px;
-            right: 70px;
-        }
-        #apDiv3
-        {
-            position: absolute;
-            text-align: center;
-            width: 610px;
-            height: 88px;
-            top:800px;
-            left: 70px;
-            right: 70px;
-        }
-    </style>
+   <title>登录</title>
+   <meta charset="UTF-8">
+   <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+   <link href="stylesheets/shouye.css" rel="stylesheet" type="text/css">
+   <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+   <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 </head>
-<body background="广大.jpg">
-<img src="广大.jpg" width="780" height="1534">
-<div id="apDiv1">
-    <a style="color: RGB(162,173,177)">_______________________</a><a style="color: RGB(85,95,98); font-size:28px;"> 使用登录方式 </a><a style="color: RGB(162,173,177)">_______________________</a>
+
+<body>
+<div class="container">
+<div style="position:absolute; width:100%; height:100%; z-index:-1; left:0; top:0;">      
+ <img src="登陆方式.jpg" style="left:0; top:0;" height="100%" width="100%">      
 </div>
-<div id="apDiv2">
-    <input type="button" style="width: 610px;height: 88px;text-align: center; font-size: 28px; color: RGB(162,173,177); background: white"  value="统一认证">
+ 
+<div class="div1">
+<div class="l">
+<hr style="height:1px;border:none;border-top:1px solid #555555;" />
 </div>
-<div id="apDiv3">
-    <input type="button" style="width: 610px;height: 88px;text-align: center; font-size: 28px; color: RGB(162,173,177); background: white" value="学生本地认证">
+<div class="m">
+<div class="text">使用登录方式</div>
+</div>
+<div class="r">
+<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+</div>
+
+
+</div>
+
+<div class="div2">
+
+<button type="button" class="btn btn-default btn-lg btn-block">统一认证</button>
+<button type="button" class="btn btn-default btn-lg btn-block">学生本地认证</button>
+
+</div>
+
+
 </div>
 </body>
 </html>
